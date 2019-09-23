@@ -49,17 +49,17 @@ html, .greedy-nav, .subscribe, .page__footer {
     padding: 3px;
     text-align: right;
 
-    font-size: 14px !important; // originally 16px
+    font-size: 12px !important; // originally 16px
     @include breakpoint($medium) {
-        font-size: 16px !important; // originally 18px
+        font-size: 12px !important; // originally 18px
     }
 
     @include breakpoint($large) {
-        font-size: 18px !important; // originally 20px
+        font-size: 14px !important; // originally 20px
     }
 
     @include breakpoint($x-large) {
-        font-size: 20px !important; // originally 22px
+        font-size: 16px !important; // originally 22px
     }
 
     input {
@@ -69,22 +69,26 @@ html, .greedy-nav, .subscribe, .page__footer {
         align-self: center;
     }
 
+    label {
+        align-self: center;
+    }
+
     input[type="submit"] {
         padding: 6px;
         color: #fff;
         background-color: #0092ca;
         border-bottom: 1px solid #ccc;        
-        font-size: 12px !important; // originally 16px
-        @include breakpoint($medium) {
-            font-size: 14px !important; // originally 18px
-        }
+        // font-size: 12px !important; // originally 16px
+        // @include breakpoint($medium) {
+        //     font-size: 14px !important; // originally 18px
+        // }
 
-        @include breakpoint($large) {
-            font-size: 16px !important; // originally 20px
-        }
+        // @include breakpoint($large) {
+        //     font-size: 16px !important; // originally 20px
+        // }
 
-        @include breakpoint($x-large) {
-            font-size: 18px !important; // originally 22px
-        }
+        // @include breakpoint($x-large) {
+        //     font-size: 18px !important; // originally 22px
+        // }
     }
 }

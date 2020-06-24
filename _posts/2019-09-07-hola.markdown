@@ -4,6 +4,5 @@ title:  "Hola!"
 categories: random
 last_modified_at: false
 ---
-Hola, empezamos de cero [otra vez][ooo].
+Hola, empezamos de cero otra vez.
 
-[ooo]: https://albertoromeu.com/empezamos-otra-vez/
